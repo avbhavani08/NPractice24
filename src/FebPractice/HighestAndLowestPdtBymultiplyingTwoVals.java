@@ -11,7 +11,7 @@ public class HighestAndLowestPdtBymultiplyingTwoVals {
 
 			for(int j=i+1 ; j<arr.length; j++) {
 				int product = arr[i]*arr[j];
-
+				//below variables store the Max and min values
 				highestProduct = Math.max(highestProduct, product);
 				lowestProduct= Math.min(lowestProduct, product);
 
